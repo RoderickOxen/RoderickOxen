@@ -1,5 +1,14 @@
 ### Hi there 👋
 
+- 👨‍💻 Software Consulting Engineer (SWAT - Software and Automation) @ Cisco Systems Lisbon
+- 🌱 Currently learning a lot of fullstack tools and technologies 
+- 📗 Languages [Java, Javascript, Typescript, Python, Kotlin, Julia]
+- 📟 Frameworks [Node.js, React.js, Express.js, Flask]
+- 🛢 Databases [MySQL, Postgres, MongoDB, Firestore]
+- 🔁 DevOps [Docker, Jenkins, Ansible]
+- 🌨 Cloud [GCP, AWS]
+- 🌉 Within Cisco Systems : NSO (Network Services Orchestrator)
+
 <!--
 **RoderickOxen/RoderickOxen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

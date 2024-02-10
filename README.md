@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 👨‍💻 Software Consulting Engineer (SWAT - Software and Automation) @ Cisco Systems Lisbon
+- 👨‍💻 Software Engineer (SWAT - Software and Automation) @ Cisco Systems Lisbon
 - 🌱 Currently learning a lot of fullstack tools and technologies 
 - 📗 Languages [Java, Javascript, Typescript, Python, Kotlin, Julia]
 - 📟 Frameworks [Node.js, React.js, Express.js, Flask]

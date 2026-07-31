@@ -79,8 +79,8 @@
   </g>
 
   <text class="name" x="60" y="104" font-size="34">Rodrigo Nobre</text>
-  <text class="role" x="61" y="136" font-size="16">Customer Engineer @ Cloudflare · ex-Cisco · network &amp; edge enthusiast</text>
+  <text class="role" x="61" y="136" font-size="16">Customer Engineer @ Cloudflare</text>
   <rect x="60" y="152" width="0" height="2" fill="#f38020">
-    <animate attributeName="width" from="0" to="330" dur="1.6s" fill="freeze"/>
+    <animate attributeName="width" from="0" to="240" dur="1.6s" fill="freeze"/>
   </rect>
 </svg>

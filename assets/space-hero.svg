@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="Animated space banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b1a"/>
+      <stop offset="55%" stop-color="#0d1330"/>
+      <stop offset="100%" stop-color="#131a3d"/>
+    </linearGradient>
+    <radialGradient id="planet" cx="35%" cy="30%">
+      <stop offset="0%" stop-color="#7aa2ff"/>
+      <stop offset="60%" stop-color="#3b5bdb"/>
+      <stop offset="100%" stop-color="#1b2a6b"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f38020" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f38020" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .star { fill: #ffffff; }
+      .tw { animation: tw 3s ease-in-out infinite; }
+      .tw2 { animation: tw 4.5s ease-in-out infinite; }
+      .tw3 { animation: tw 2.2s ease-in-out infinite; }
+      @keyframes tw {
+        0%, 100% { opacity: .25; }
+        50%      { opacity: 1; }
+      }
+      .drift { animation: drift 26s linear infinite; }
+      @keyframes drift {
+        from { transform: translateX(0); }
+        to   { transform: translateX(-300px); }
+      }
+      .name { font-family: 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; font-weight: 700; fill: #f0f4ff; }
+      .role { font-family: 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; font-weight: 400; fill: #8fa3d4; }
+      @media (prefers-reduced-motion: reduce) {
+        .tw, .tw2, .tw3, .drift { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#sky)"/>
+
+  <g class="drift">
+    <g>
+      <circle class="star tw"  cx="40"  cy="34"  r="1.4"/>
+      <circle class="star tw2" cx="118" cy="72"  r="1"/>
+      <circle class="star tw3" cx="186" cy="26"  r="1.6"/>
+      <circle class="star tw2" cx="242" cy="120" r="1.1"/>
+      <circle class="star tw"  cx="300" cy="58"  r="1"/>
+      <circle class="star tw3" cx="366" cy="150" r="1.5"/>
+      <circle class="star tw2" cx="428" cy="40"  r="1.2"/>
+      <circle class="star tw"  cx="498" cy="104" r="1"/>
+      <circle class="star tw3" cx="556" cy="30"  r="1.3"/>
+      <circle class="star tw2" cx="620" cy="166" r="1.1"/>
+      <circle class="star tw"  cx="688" cy="66"  r="1.5"/>
+      <circle class="star tw3" cx="754" cy="132" r="1"/>
+      <circle class="star tw2" cx="820" cy="48"  r="1.2"/>
+      <circle class="star tw"  cx="878" cy="96"  r="1.4"/>
+    </g>
+    <g transform="translate(900,0)">
+      <circle class="star tw"  cx="40"  cy="34"  r="1.4"/>
+      <circle class="star tw2" cx="118" cy="72"  r="1"/>
+      <circle class="star tw3" cx="186" cy="26"  r="1.6"/>
+      <circle class="star tw2" cx="242" cy="120" r="1.1"/>
+      <circle class="star tw"  cx="300" cy="58"  r="1"/>
+      <circle class="star tw3" cx="366" cy="150" r="1.5"/>
+    </g>
+  </g>
+
+  <circle cx="742" cy="112" r="150" fill="url(#glow)"/>
+
+  <g transform="translate(742,112)">
+    <circle r="46" fill="url(#planet)"/>
+    <ellipse rx="82" ry="24" fill="none" stroke="#4c6ef5" stroke-opacity="0.45" stroke-width="1.5" transform="rotate(-18)"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      <circle cx="78" cy="0" r="4.5" fill="#f38020">
+        <animate attributeName="r" values="4.5;6;4.5" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <text class="name" x="60" y="104" font-size="34">Rodrigo Nobre</text>
+  <text class="role" x="61" y="136" font-size="16">Customer Engineer @ Cloudflare · ex-Cisco · network &amp; edge enthusiast</text>
+  <rect x="60" y="152" width="0" height="2" fill="#f38020">
+    <animate attributeName="width" from="0" to="330" dur="1.6s" fill="freeze"/>
+  </rect>
+</svg>
